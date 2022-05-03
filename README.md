@@ -1,2 +1,2 @@
 # Repositório do desafio de projeto sobre Git/GitHub da dio
-Desafio de projeto sobre git/github
+Repositório criado para o desafio de prejeto.
