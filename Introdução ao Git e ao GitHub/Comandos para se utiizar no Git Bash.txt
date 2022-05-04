@@ -1,0 +1,26 @@
+Aqui irei listar alguns comandos básicos aprendidos no curso de Git/GitHub da DIO
+para futuras consultas.
+Ctrl + l - limpa o terminal
+TAB - auto completar
+cd - mudar entre as pastas
+ls - lista os arquivos
+mkdir + nome da pasta - criar uma pasta
+pwd - mostra caminho completo da pasta
+git clone + link - clona um repositorio no git hub 
+ssh-keygen -t ed25519 -c + email - cria uma chave ssh
+cat id_ed25519.pub - mostra a chave pública
+eval $(ssh-agent -s) - inicia o ssh agent
+ssh-add id_ed25519 - passa a chave privada para ssh
+git init - iniciar repositorio
+ls -a - mostra arquivos ocultos
+cd .. - volta um nivel na pasta
+git config --global user.email "email" - configurar email
+git config --global user.name "name" -  configurar nickname
+git add * - adicionar todos arquivos
+git commit -m "comentario sobre mudanças" - criar commit
+git status - monitora status dos arquivos
+mv "nome arquivo" ./"outro repositorio" - mover arquivos entre repositorios
+git remote add origin + "link do git hub" - passa repositorio local para remoto
+git push origin master ou main (branch) - empurra repositorio local para remoto
+git pull origin master ou main (branch) - puxa repositorio remoto prara local
+git clone + link - clona repositorio do github
